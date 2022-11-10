@@ -1,0 +1,156 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <title>Lesson_16</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">Homework Lesson_16</header>
+      <main class="page">
+        <section class="page__any any">
+          <div class="any__container">
+            <div class="any__image">
+              <img src="img/illustration.svg" alt="illustration" />
+            </div>
+            <div class="any__body body-any">
+              <div class="body-any__title-block title-block">
+                <p>Any questions?</p>
+                <h2>Drop us a line</h2>
+              </div>
+              <form
+                action="https://jsonplaceholder.typicode.com/posts"
+                class="body-any__form form"
+                method="get"
+              >
+                <div class="form__block">
+                  <div class="form__line">
+                    <label for="name-01" class="form__label">First Name*</label>
+                    <input
+                      id="name-01"
+                      required
+                      autocomplete="off"
+                      name="name"
+                      type="text"
+                      placeholder="Your first name"
+                      class="form__input"
+                    />
+                  </div>
+                  <div class="form__line">
+                    <label for="name-02" class="form__label">Last Name*</label>
+                    <input
+                      id="name-02"
+                      required
+                      autocomplete="off"
+                      name="name"
+                      type="text"
+                      placeholder="Your last name"
+                      class="form__input"
+                    />
+                  </div>
+                  <div class="form__line">
+                    <label for="mail" class="form__label">Email*</label>
+                    <input
+                      id="mail"
+                      required
+                      autocomplete="off"
+                      name="mail"
+                      type="email"
+                      placeholder="Your working email"
+                      class="form__input"
+                    />
+                  </div>
+                  <div class="form__line">
+                    <label for="phone" class="form__label">Phone</label>
+                    <input
+                      id="phone"
+                      required
+                      autocomplete="off"
+                      name="phone"
+                      type="tel"
+                      placeholder="Your phone number"
+                      class="form__input"
+                    />
+                  </div>
+                  <div class="form__line">
+                    <label for="message" class="form__label">Message*</label>
+                    <textarea
+                      id="message"
+                      autocomplete="off"
+                      name="message"
+                      placeholder="Your message"
+                      class="form__area"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="form__line form__line--radio">
+                  <div class="form__title">
+                    Your preferences when choosing a course?
+                  </div>
+                  <div class="form__radio">
+                    <input
+                      checked
+                      class="form__input form__input--radio"
+                      id="course-01"
+                      required
+                      name="course"
+                      value="course-01"
+                      type="radio"
+                    />
+                    <label
+                      class="form__label form__label--radio"
+                      for="course-01"
+                      >Web-design</label
+                    >
+                  </div>
+                  <div class="form__radio">
+                    <input
+                      class="form__input form__input--radio"
+                      id="course-02"
+                      required
+                      name="course"
+                      value="course-02"
+                      type="radio"
+                    />
+                    <label
+                      class="form__label form__label--radio"
+                      for="course-02"
+                      >Programming</label
+                    >
+                  </div>
+                </div>
+                <div class="form__active active-form">
+                  <div class="form__line form__line--chk">
+                    <input
+                      id="agree"
+                      class="form__input form__input--chk"
+                      required
+                      name="agreement"
+                      type="checkbox"
+                    />
+                    <label class="form__label--chk" for="agree"
+                      >I agree to receive communications from Createx Online
+                      School</label
+                    >
+                  </div>
+                  <button type="submit" class="active-form__button">
+                    Send message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        *******Mike-Devasy freelancer-course autumn Lesson_16*******
+      </footer>
+    </div>
+  </body>
+</html>
